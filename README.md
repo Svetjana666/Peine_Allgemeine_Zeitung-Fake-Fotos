@@ -4,6 +4,14 @@
 
 Dieses Dokument analysiert und dokumentiert einen Vorfall vom 19. Januar 2026, bei dem in der lokalen Zeitung "Peiner Allgemeine Zeitung" (PAZ) manipulierte Inhalte veröffentlicht wurden. Die Analyse zeigt Muster systematischer Desinformation, die über normale journalistische Fehler hinausgehen.
 
+### Verfügbare Ressourcen
+- **Website**: Vollständige Analyse mit allen Unterseiten verfügbar (`index.html`)
+  - [Startseite](index.html) - Übersicht der Untersuchung
+  - [Manipulation](manipulation.html) - Methoden der subliminalen Beeinflussung
+  - [KI-Analyse](ki-analyse.html) - Forensische Bildanalyse
+  - [Beweise](beweise.html) - Dokumentierte Beweisstücke
+- **PDF-Dossier**: Wissenschaftliche Publikation (`Dossier_Medienmanipulation_Peine_2026.pdf`)
+
 ## Dokumentierte Vorfälle
 
 ### Veröffentlichte Manipulationen (19. Januar 2026)
