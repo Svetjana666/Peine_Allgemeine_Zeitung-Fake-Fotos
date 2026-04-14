@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wissenschaftliche Forschung | PAZ Analyse Dossier 2026</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --paz-red: #e30613;
+            --paz-dark: #1a1a1a;
+            --paz-gray: #f4f4f4;
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: var(--paz-gray);
+            color: var(--paz-dark);
+            line-height: 1.7;
+        }
+        h1, h2, h3 {
+            font-family: 'Playfair Display', serif;
+        }
+        .header-top {
+            background-color: white;
+            border-bottom: 4px solid var(--paz-red);
+        }
+        .nav-link:hover {
+            color: var(--paz-red);
+        }
+        .nav-link.active {
+            color: var(--paz-red);
+            border-bottom: 2px solid var(--paz-red);
+        }
+        .hero-title {
+            font-size: 2.5rem;
+            line-height: 1.2;
+            color: var(--paz-red);
+        }
+        .badge {
+            background-color: var(--paz-red);
+            color: white;
+            padding: 0.2rem 0.5rem;
+            font-size: 0.8rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .research-card {
+            background: white;
+            border-left: 4px solid var(--paz-red);
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .institution-box {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+        .timeline-item {
+            border-left: 3px solid var(--paz-red);
+            padding-left: 1.5rem;
+            margin-bottom: 2rem;
+            position: relative;
+        }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -8px;
+            top: 0;
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            background: var(--paz-red);
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header-top py-4 px-6 shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <a href="index.html" class="text-3xl font-black tracking-tighter italic" style="color: var(--paz-red);">
+                PAZ <span class="text-black not-italic font-bold">ANALYSE</span>
+            </a>
+            <nav class="hidden md:flex space-x-6 font-bold uppercase text-sm">
+                <a href="index.html" class="nav-link">Startseite</a>
+                <a href="Dossier_Medienmanipulation_Peine_2026.pdf" class="nav-link">Dossier PDF</a>
+                <a href="manipulation.html" class="nav-link">Manipulation</a>
+                <a href="subliminal.html" class="nav-link">Subliminal</a>
+                <a href="forschung.html" class="nav-link active">Forschung</a>
+                <a href="ki-analyse.html" class="nav-link">KI-Analyse</a>
+                <a href="beweise.html" class="nav-link">Beweise</a>
+            </nav>
+            <div class="text-sm font-bold">14. April 2026</div>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-6 py-8">
+        <!-- Header Section -->
+        <div class="bg-white p-6 mb-8 shadow-md border-t-4 border-red-600">
+            <span class="badge mb-2 inline-block">Wissenschaft</span>
+            <h1 class="hero-title mb-4">Forschung zu Subliminaler Manipulation</h1>
+            <p class="text-xl text-gray-700 leading-relaxed">
+                Wissenschaftliche Institutionen, Studien und Publikationen zur Identifikation und Aufdeckung subliminaler Beeinflussung.
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <!-- Main Content -->
+            <div class="lg:col-span-2 space-y-8">
+                
+                <!-- Historical Timeline -->
+                <section class="bg-white p-8 shadow-md">
+                    <h2 class="text-3xl mb-6">Historische Entwicklung der Forschung</h2>
+                    
+                    <div class="timeline-item">
+                        <h3 class="text-xl font-bold mb-2">1917 – Otto Pötzl</h3>
+                        <p class="text-gray-700 mb-2">
+                            Der österreichische Neurologe und Psychiater führte erste Studien zur subliminalen Wahrnehmung durch. 
+                            Seine Forschung belegte, dass Reize unterhalb der Bewusstseinsschwelle verarbeitet und gespeichert werden.
+                        </p>
+                        <p class="text-sm text-gray-500">Quelle: Pötzl, O. (1917). Die optisch-ästhetische Einheit der Doppelteppiche.</p>
+                    </div>
+
+                    <div class="timeline-item">
+                        <h3 class="text-xl font-bold mb-2">1957 – Vance Packard: "Die heimlichen Verführer"</h3>
+                        <p class="text-gray-700 mb-2">
+                            Packards Buch "Hidden Persuaders" warnte vor der kommerziellen und politischen Nutzung subliminaler Techniken. 
+                            Er dokumentierte, wie diese nicht nur für Werbung, sondern auch zur Manipulation politischer Prozesse eingesetzt werden.
+                        </p>
+                        <p class="text-sm text-gray-500">Packard, V. (1957). The Hidden Persuaders. David McKay Company.</p>
+                    </div>
+
+                    <div class="timeline-item">
+                        <h3 class="text-xl font-bold mb-2">1957 – James Vicary Kontroverse</h3>
+                        <p class="text-gray-700 mb-2">
+                            James Vicary behauptete, durch subliminale Nachrichten in Kinos ("Eat Popcorn", "Drink Coca-Cola") 
+                            den Verkauf signifikant gesteigert zu haben. Obwohl seine Studie später als gefälscht entlarvt wurde, 
+                            löste sie weltweite Debatten über subliminale Werbung aus.
+                        </p>
+                    </div>
+
+                    <div class="timeline-item">
+                        <h3 class="text-xl font-bold mb-2">1989 – EU-Verbot subliminaler Werbung</h3>
+                        <p class="text-gray-700 mb-2">
+                            Die Europäische Union verbot subliminale Werbung im Fernsehen (Richtlinie 89/552/EWG). 
+                            Dies unterstreicht die anerkannte Gefahr dieser Techniken.
+                        </p>
+                    </div>
+
+                    <div class="timeline-item">
+                        <h3 class="text-xl font-bold mb-2">1990er – Backward Masking Debatte</h3>
+                        <p class="text-gray-700 mb-2">
+                            Mehrere Gerichtsprozesse in den USA beschäftigten sich mit angeblichen Rückwärtsbotschaften (backward masking) 
+                            in Rockmusik. Die Kontroverse zeigte das gesellschaftliche Interesse an subliminalen Techniken.
+                        </p>
+                    </div>
+
+                    <div class="timeline-item">
+                        <h3 class="text-xl font-bold mb-2">2011 – Verwijmeren Meta-Analyse</h3>
+                        <p class="text-gray-700 mb-2">
+                            Verwijmeren et al. veröffentlichten eine wegweisende Meta-Analyse im "Journal of Consumer Psychology", 
+                            die belegte: Subliminale Werbung wirkt, wenn die Marke goal-relevant ist.
+                        </p>
+                        <p class="text-sm text-gray-500">Verwijmeren, T., Karremans, J.C., Stroebe, W., & Wigboldus, D.H.J. (2011). Journal of Consumer Psychology, 21(2).</p>
+                    </div>
+
+                    <div class="timeline-item">
+                        <h3 class="text-xl font-bold mb-2">2021 – EU-KI-Gesetzgebung</h3>
+                        <p class="text-gray-700 mb-2">
+                            Der Vorschlag der Europäischen Kommission für ein Gesetz über künstliche Intelligenz (GKI) 
+                            verbietet ausdrücklich "KI-Systeme zur subliminalen Beeinflussung außerhalb des Bewusstseins" (Artikel 5).
+                        </p>
+                        <p class="text-sm text-gray-500">European Commission (2021). Proposal for a Regulation on Artificial Intelligence.</p>
+                    </div>
+                </section>
+
+                <!-- Key Studies -->
+                <section class="bg-white p-8 shadow-md">
+                    <h2 class="text-3xl mb-6">Zentrale Studien und Publikationen</h2>
+
+                    <div class="research-card">
+                        <h3 class="text-xl font-bold mb-3">Verwijmeren et al. (2011, 2021)</h3>
+                        <p class="text-gray-700 mb-2">
+                            Die Forscher der Radboud University Nijmegen und der Universität von Amsterdam führten mehrere 
+                            experimentelle Studien und Meta-Analysen durch. Ihre Ergebnisse zeigen:
+                        </p>
+                        <ul class="list-disc pl-5 space-y-1 text-sm text-gray-700">
+                            <li>Subliminale Priming beeinflusst Markenwahl, wenn die Marke zielrelevant ist</li>
+                            <li>Die Wirkung ist bei gewohnheitsmäßigen Entscheidungen stärker</li>
+                            <li>Warnungen vor subliminaler Manipulation können die Wirkung reduzieren</li>
+                        </ul>
+                        <p class="text-sm text-gray-500 mt-2">Quelle: Journal of Consumer Psychology, Psychological Science</p>
+                    </div>
+
+                    <div class="research-card">
+                        <h3 class="text-xl font-bold mb-3">Rostam J. Neuwirth – EU KI Act</h3>
+                        <p class="text-gray-700 mb-2">
+                            Professor für Recht an der Universität von Macau analysierte die rechtlichen Implikationen 
+                            subliminaler KI-Manipulation. Er betont die Kombinationsgefahr mit:
+                        </p>
+                        <ul class="list-disc pl-5 space-y-1 text-sm text-gray-700">
+                            <li>Hirn-Computer-Schnittstellen (BCI)</li>
+                            <li>Big Data Analytik</li>
+                            <li>Eye-Tracking Technologien</li>
+                            <li>Biometrischer Echtzeit-Identifikation</li>
+                        </ul>
+                        <p class="text-sm text-gray-500 mt-2">Neuwirth, R.J. (2024). "The EU Artificial Intelligence Act". Routledge.</p>
+                    </div>
+
+                    <div class="research-card">
+                        <h3 class="text-xl font-bold mb-3">Psychology Today – Ian Zimmerman</h3>
+                        <p class="text-gray-700 mb-2">
+                            Experimentalpsychologe Ian Zimmerman fasste in "Psychology Today" (2014) zusammen:
+                            Subliminale Botschaften können Entscheidungen beeinflussen, wenn sie außerhalb des Bewusstseins 
+                            liegen und zielrelevant sind. Die Wirkung ist subtil aber verhaltensrelevant.
+                        </p>
+                        <p class="text-sm text-gray-500">Zimmerman, I. (2014). Subliminal Ads, Unconscious Influence, and Consumption. Psychology Today.</p>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Sidebar -->
+            <div class="space-y-8">
+                <!-- Institutions -->
+                <section class="bg-white p-6 shadow-md border-t-4 border-black">
+                    <h3 class="text-xl font-bold mb-4 uppercase">Führende Institutionen</h3>
+                    
+                    <div class="institution-box">
+                        <h4 class="font-bold mb-2">Radboud University</h4>
+                        <p class="text-sm">Nijmegen, Niederlande – Verhaltenswissenschaftliches Institut</p>
+                    </div>
+                    
+                    <div class="institution-box">
+                        <h4 class="font-bold mb-2">Universität von Amsterdam</h4>
+                        <p class="text-sm">Forschungsgruppe Consumer Psychology</p>
+                    </div>
+                    
+                    <div class="institution-box">
+                        <h4 class="font-bold mb-2">Universität von Macau</h4>
+                        <p class="text-sm">Abteilung für Global Legal Studies – KI & Recht</p>
+                    </div>
+                    
+                    <div class="institution-box">
+                        <h4 class="font-bold mb-2">Europäische Kommission</h4>
+                        <p class="text-sm">KI-Gesetzgebung und Ethik-Ausschuss</p>
+                    </div>
+                    
+                    <div class="institution-box">
+                        <h4 class="font-bold mb-2">Association for Psychological Science</h4>
+                        <p class="text-sm">Fachverband für experimentelle Psychologie</p>
+                    </div>
+                </section>
+
+                <!-- Key Findings -->
+                <section class="bg-red-600 text-white p-6 shadow-md">
+                    <h3 class="text-xl font-bold mb-4 uppercase italic tracking-tighter">Wissenschaftliche Konsenspunkte</h3>
+                    <ul class="space-y-3 text-sm">
+                        <li>✓ Subliminale Reize werden verarbeitet, auch ohne bewusste Wahrnehmung</li>
+                        <li>✓ Langzeitwirkungen durch wiederholte Exposition sind belegt</li>
+                        <li>✓ Goal-relevante Subliminals beeinflussen Entscheidungen</li>
+                        <li>✓ Neuroplastizität ermöglicht strukturelle Gehirnveränderungen</li>
+                        <li>✓ Warnungen können Schutz bieten, aber nicht vollständig</li>
+                    </ul>
+                </section>
+
+                <!-- Legal Framework -->
+                <div class="bg-white p-6 shadow-md border-l-4 border-red-600">
+                    <h4 class="font-bold mb-3">Rechtlicher Rahmen</h4>
+                    <ul class="text-sm space-y-2 text-gray-600">
+                        <li>• EU: Verbot subliminaler Werbung (seit 1989)</li>
+                        <li>• EU: KI-Verordnung verbietet subliminale KI (2021)</li>
+                        <li>• Deutschland: UWG §3 (irreführende Werbung)</li>
+                        <li>• USA: FCC-Richtlinien zu subliminaler Werbung</li>
+                    </ul>
+                </div>
+
+                <a href="subliminal.html" class="block bg-white p-6 shadow-md border-l-4 border-red-600 hover:bg-gray-50 transition">
+                    <h4 class="font-bold mb-2">Zur Neuropsychologie</h4>
+                    <p class="text-sm text-gray-600">Wie das Gehirn auf subliminale Codes reagiert</p>
+                    <span class="text-red-600 font-bold text-sm">→ Lesen</span>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-gray-200 py-12 mt-12 border-t border-gray-300">
+        <div class="max-w-7xl mx-auto px-6 text-center text-sm text-gray-600">
+            <div class="font-bold mb-4 uppercase italic text-gray-800">PAZ ANALYSE - Dossier 2026</div>
+            <p>© 2026 Dokumentationsprojekt zur Medienmanipulation. Alle Inhalte dienen der Aufklärung.</p>
+            <div class="mt-4 space-x-4">
+                <a href="index.html" class="text-red-600 hover:underline">Startseite</a>
+                <a href="manipulation.html" class="text-red-600 hover:underline">Manipulation</a>
+                <a href="subliminal.html" class="text-red-600 hover:underline">Subliminal</a>
+                <a href="forschung.html" class="text-red-600 hover:underline">Forschung</a>
+                <a href="ki-analyse.html" class="text-red-600 hover:underline">KI-Analyse</a>
+                <a href="beweise.html" class="text-red-600 hover:underline">Beweise</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
