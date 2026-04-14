@@ -8,6 +8,8 @@ Dieses Dokument analysiert und dokumentiert einen Vorfall vom 19. Januar 2026, b
 - **Website**: Vollständige Analyse mit allen Unterseiten verfügbar (`index.html`)
   - [Startseite](index.html) - Übersicht der Untersuchung
   - [Manipulation](manipulation.html) - Methoden der subliminalen Beeinflussung
+  - [Subliminal](subliminal.html) - Neuropsychologische Wirkungsanalyse
+  - [Forschung](forschung.html) - Wissenschaftliche Studien und Institutionen
   - [KI-Analyse](ki-analyse.html) - Forensische Bildanalyse
   - [Beweise](beweise.html) - Dokumentierte Beweisstücke
 - **PDF-Dossier**: Wissenschaftliche Publikation (`Dossier_Medienmanipulation_Peine_2026.pdf`)
