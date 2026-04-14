@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KI-Analyse | PAZ Analyse Dossier 2026</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --paz-red: #e30613;
+            --paz-dark: #1a1a1a;
+            --paz-gray: #f4f4f4;
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: var(--paz-gray);
+            color: var(--paz-dark);
+        }
+        h1, h2, h3 {
+            font-family: 'Playfair Display', serif;
+        }
+        .header-top {
+            background-color: white;
+            border-bottom: 4px solid var(--paz-red);
+        }
+        .nav-link:hover {
+            color: var(--paz-red);
+        }
+        .nav-link.active {
+            color: var(--paz-red);
+            border-bottom: 2px solid var(--paz-red);
+        }
+        .hero-title {
+            font-size: 2.5rem;
+            line-height: 1.2;
+            color: var(--paz-red);
+        }
+        .badge {
+            background-color: var(--paz-red);
+            color: white;
+            padding: 0.2rem 0.5rem;
+            font-size: 0.8rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .artifact-box {
+            background-color: #fff3e0;
+            border-left: 4px solid #ff9800;
+            padding: 1rem;
+            margin: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header-top py-4 px-6 shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <a href="index.html" class="text-3xl font-black tracking-tighter italic" style="color: var(--paz-red);">
+                PAZ <span class="text-black not-italic font-bold">ANALYSE</span>
+            </a>
+            <nav class="hidden md:flex space-x-6 font-bold uppercase text-sm">
+                <a href="index.html" class="nav-link">Startseite</a>
+                <a href="Dossier_Medienmanipulation_Peine_2026.pdf" class="nav-link">Dossier PDF</a>
+                <a href="manipulation.html" class="nav-link">Manipulation</a>
+                <a href="ki-analyse.html" class="nav-link active">KI-Analyse</a>
+                <a href="beweise.html" class="nav-link">Beweise</a>
+            </nav>
+            <div class="text-sm font-bold">14. April 2026</div>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-6 py-8">
+        <!-- Header Section -->
+        <div class="bg-white p-6 mb-8 shadow-md border-t-4 border-red-600">
+            <span class="badge mb-2 inline-block">Forensik</span>
+            <h1 class="hero-title mb-4">Forensische KI-Analyse</h1>
+            <p class="text-xl text-gray-700 leading-relaxed">
+                Technische Untersuchung der Bildserie auf KI-Generierungsmerkmale und synthetische Artefakte.
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <!-- Main Content -->
+            <div class="lg:col-span-2 space-y-8">
+                <!-- Section 1 -->
+                <section class="bg-white p-8 shadow-md">
+                    <h2 class="text-3xl mb-6">1. Anatomische KI-Fehler</h2>
+                    <div class="mb-6 border-4 border-gray-100 p-2">
+                        <img src="PAZ_2026-01-19-Spieler_Drei_Beine.jpg" alt="KI-Synthesefehler: Spieler mit drei Beinen" class="w-full h-auto mb-2">
+                        <p class="text-xs text-gray-500 italic text-center">Abb. 1: Klassischer KI-Fehler bei der Generierung menschlicher Anatomie (Tri-Pedie)</p>
+                    </div>
+                    <p class="mb-4 text-gray-700 leading-relaxed">
+                        Das Bild des "Spielers mit drei Beinen" liefert unzweifelhaften technischen Beweis für den Einsatz von KI-Bildgenerierung. Die Entstehung einer dritten Extremität ist ein charakteristisches Artefakt aktueller Diffusionsmodelle.
+                    </p>
+                    <div class="artifact-box">
+                        <h3 class="font-bold mb-2 text-orange-800">Typische KI-Anomalien:</h3>
+                        <ul class="list-disc pl-5 space-y-1 text-sm">
+                            <li>Falsche Gliedmaßenanzahl</li>
+                            <li>Asymmetrische Körperproportionen</li>
+                            <li>Unnatürliche Gelenkpositionen</li>
+                            <li>Proportionale Inkonsistenzen</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- Section 2 -->
+                <section class="bg-white p-8 shadow-md">
+                    <h2 class="text-3xl mb-6">2. Text-Rendering in KI-Bildern</h2>
+                    <p class="mb-4 text-gray-700 leading-relaxed">
+                        KI-Systeme zeigen charakteristische Muster bei der Generierung von Text in Bildern. Die Analyse der "Aktenzeichen" offenbart typische Merkmale synthetischer Texterzeugung.
+                    </p>
+                    <div class="bg-gray-100 p-4 rounded mb-4">
+                        <h4 class="font-bold mb-2">Beobachtete Anomalien:</h4>
+                        <ul class="text-sm space-y-2">
+                            <li>• Zu perfekte Schriftkonsistenz</li>
+                            <li>• Fehlende Druckartefakte</li>
+                            <li>• Uniforme Farbgebung</li>
+                            <li>• Unnatürliche Schattenwürfe</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- Section 3 -->
+                <section class="bg-white p-8 shadow-md">
+                    <h2 class="text-3xl mb-6">3. Prompt-Injection-Techniken</h2>
+                    <p class="mb-4 text-gray-700 leading-relaxed">
+                        Die gezielte Platzierung von Codes deutet auf die Verwendung von Prompt-Injection hin. Dabei werden semantische Trigger in die Bildbeschreibungen eingebettet.
+                    </p>
+                    <div class="bg-gray-800 text-white p-6 rounded mb-4">
+                        <h4 class="font-bold mb-3 text-red-400">Hypothetischer Prompt-Aufbau:</h4>
+                        <code class="text-sm block bg-gray-700 p-3 rounded">
+                            "Erstelle ein Bild eines Polizeidokuments mit der Kennung SH 33/88 AH im offiziellen Stil..."
+                        </code>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed">
+                        Diese Technik ermöglicht die präzise Platzierung von Symbolik bei gleichzeitiger Aufrechterhaltung visueller Authentizität.
+                    </p>
+                </section>
+
+                <!-- Section 4 -->
+                <section class="bg-white p-8 shadow-md">
+                    <h2 class="text-3xl mb-6">4. Metadaten-Analyse</h2>
+                    <p class="mb-4 text-gray-700 leading-relaxed">
+                        Die Untersuchung der Dateimetadaten kann Hinweise auf die verwendete KI-Software oder Generierungsparameter liefern.
+                    </p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="bg-red-50 p-4 border-l-4 border-red-600">
+                            <h4 class="font-bold mb-2">Dateieigenschaften</h4>
+                            <p class="text-sm">Konsistente Kompressionsartefakte über alle Bilder hinweg</p>
+                        </div>
+                        <div class="bg-red-50 p-4 border-l-4 border-red-600">
+                            <h4 class="font-bold mb-2">Zeitstempel</h4>
+                            <p class="text-sm">Synchronisierte Erstellungszeitpunkte deuten auf Batch-Verarbeitung</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Sidebar -->
+            <div class="space-y-8">
+                <section class="bg-white p-6 shadow-md border-t-4 border-black">
+                    <h3 class="text-xl font-bold mb-4 uppercase">KI-Artefakte</h3>
+                    <ul class="space-y-4 text-sm">
+                        <li class="flex items-start">
+                            <span class="text-red-600 mr-2 font-bold">⚠</span>
+                            <span>Anatomische Fehler</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-red-600 mr-2 font-bold">⚠</span>
+                            <span>Text-Inkonsistenzen</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-red-600 mr-2 font-bold">⚠</span>
+                            <span>Proportionale Anomalien</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-red-600 mr-2 font-bold">⚠</span>
+                            <span>Farbartefakte</span>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="bg-red-600 text-white p-6 shadow-md">
+                    <h3 class="text-xl font-bold mb-4 uppercase italic tracking-tighter">Detektionsmethoden</h3>
+                    <p class="text-sm leading-relaxed">
+                        Erkennung synthetischer Medien erfordert:
+                    </p>
+                    <ul class="text-sm space-y-2 mt-4">
+                        <li>• Visuelle Fehleranalyse</li>
+                        <li>• Metadaten-Prüfung</li>
+                        <li>• Konsistenzprüfung</li>
+                        <li>• Forensische Software</li>
+                    </ul>
+                </section>
+
+                <div class="bg-white p-6 shadow-md border-l-4 border-red-600">
+                    <h4 class="font-bold mb-2">Verwendete Tools</h4>
+                    <ul class="text-sm space-y-2 text-gray-600">
+                        <li>• Bildforensik-Software</li>
+                        <li>• Metadaten-Analyzer</li>
+                        <li>• KI-Detektionsalgorithmen</li>
+                        <li>• Statistische Pattern-Analyse</li>
+                    </ul>
+                </div>
+
+                <a href="beweise.html" class="block bg-white p-6 shadow-md border-l-4 border-red-600 hover:bg-gray-50 transition">
+                    <h4 class="font-bold mb-2">Zur Beweisaufnahme</h4>
+                    <p class="text-sm text-gray-600">Alle dokumentierten Beweisstücke im Überblick</p>
+                    <span class="text-red-600 font-bold text-sm">→ Ansehen</span>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-gray-200 py-12 mt-12 border-t border-gray-300">
+        <div class="max-w-7xl mx-auto px-6 text-center text-sm text-gray-600">
+            <div class="font-bold mb-4 uppercase italic text-gray-800">PAZ ANALYSE - Dossier 2026</div>
+            <p>© 2026 Dokumentationsprojekt zur Medienmanipulation. Alle Inhalte dienen der Beweissicherung.</p>
+            <div class="mt-4 space-x-4">
+                <a href="index.html" class="text-red-600 hover:underline">Startseite</a>
+                <a href="manipulation.html" class="text-red-600 hover:underline">Manipulation</a>
+                <a href="ki-analyse.html" class="text-red-600 hover:underline">KI-Analyse</a>
+                <a href="beweise.html" class="text-red-600 hover:underline">Beweise</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
